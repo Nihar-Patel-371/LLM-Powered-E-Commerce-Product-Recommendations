@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.chatbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.history {
+    height: 600px;
+    width: 1200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* File: styles.css */
+
+.recommendations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: calc(33.33% - 10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin: 10px;
+    color: #007bff;
+}
+
+.card h4 {
+    font-size: 1em;
+    margin: 10px;
+    color: #555;
+}
+
+.card p {
+    font-size: 0.9em;
+    margin: 10px;
+    color: #333;
+}
+
+.card .price {
+    font-size: 1.1em;
+    margin: 10px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.card-container {
+    padding: 10px;
+}/* Align cards in a single row */
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 1 1 calc(33.33% - 10px); /* Adjust width for three cards in a row */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin: 10px;
+    color: #007bff;
+}
+
+.card h4 {
+    font-size: 1em;
+    margin: 10px;
+    color: #555;
+}
+
+.card p {
+    font-size: 0.9em;
+    margin: 10px;
+    color: #333;
+}
+
+.card .price {
+    font-size: 1.1em;
+    margin: 10px;
+    font-weight: bold;
+    color: #28a745;
+}
