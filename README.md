@@ -14,14 +14,6 @@ An end-to-end web mining and LLM based recommendation system for E-commerce. The
 
 ---
 
-## Applications  
-This project is tailored for:  
-- E-commerce platforms to deliver personalized product recommendations.  
-- Data-driven analysis of online product trends.  
-- Enhancing user experience by matching queries to precise results.  
-
----
-
 ## Getting Started  
 
 ### Prerequisites  
