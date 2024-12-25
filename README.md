@@ -14,6 +14,13 @@ An end-to-end web mining and LLM based recommendation system for E-commerce. The
 
 ---
 
+## Demo
+
+https://github.com/user-attachments/assets/2c74a6d1-1d59-44cd-aa7c-0893b30f29d0
+
+
+---
+
 ## Getting Started  
 
 ### Prerequisites  
@@ -22,3 +29,23 @@ An end-to-end web mining and LLM based recommendation system for E-commerce. The
 - Install dependencies using:  
   ```bash
   pip install -r requirements.txt
+
+### Data Scrapping
+- Run the `handm.py` file to scrape product details form the website, and to store them locally.
+- To run the file:
+  ```bash
+  py .\handm.py
+- The scrapped data will be saved as `handm.pkl`, in the current directory.
+
+### Model Training
+- For training the model from the scratch or to update previously existing trained model, by taking the latest scrapped dataset.
+- To run the file:
+  ```bash
+  py .\model_train.py
+- The model will be saved as `trained_model.pkl`, in the current directory.
+
+### Model Testing
+- To run the flask interface for testing queries and trained model, run the `flask_app.py`.
+- To run the file:
+  ```bash
+  py .\flask_app.py
