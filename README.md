@@ -17,7 +17,8 @@ An end-to-end web mining and LLM based recommendation system for E-commerce, inc
 
 ## Demo
 
-https://github.com/user-attachments/assets/2c74a6d1-1d59-44cd-aa7c-0893b30f29d0
+https://github.com/user-attachments/assets/6fe7ed65-37f5-4387-b938-cb25e7bc0d6a
+
 
 
 ---
